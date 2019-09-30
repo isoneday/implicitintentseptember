@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.BrowserActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtalamatweb"
+        android:hint="inputkan alamat web"
+        android:inputType="textWebEditText"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open browser"
+        android:id="@+id/btnopenbrows"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open webview"
+        android:id="@+id/btnopenweb"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/wv1"
+        android:layout_height="match_parent"></WebView>
+</LinearLayout>
